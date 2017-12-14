@@ -1,0 +1,129 @@
+﻿  Time.cpp
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(36): error C2976: 'std::map': too few template arguments
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(72): note: see declaration of 'std::map'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(36): error C2059: syntax error: 'empty declaration'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(36): error C2143: syntax error: missing ';' before ')'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(37): error C2143: syntax error: missing ';' before '{'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(37): error C2143: syntax error: missing ')' before '{'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(38): error C2065: 'it': undeclared identifier
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(38): error C2227: left of '->first' must point to class/struct/union/generic type
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(38): note: type is 'unknown-type'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(39): error C2065: 'it': undeclared identifier
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(39): error C2227: left of '->second' must point to class/struct/union/generic type
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.cpp(39): note: type is 'unknown-type'
+  Set.cpp
+  Particle.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(200): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<double,Particle_s,void,0>(std::pair<double,Particle_s> &&) noexcept' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<double,Particle_s,void,0>(std::pair<double,Particle_s> &&) noexcept' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const int,Particle_s>,void *>,
+              _Objty=std::pair<const int,Particle_s>,
+              _Ty=std::pair<double,Particle_s>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const int,Particle_s>,void *>,
+              _Objty=std::pair<const int,Particle_s>,
+              _Ty=std::pair<double,Particle_s>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(996): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<double,Particle_s>>(std::allocator<_Other> &,_Objty *,std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,Particle_s>,void *>>,
+              _Ty=std::pair<const int,Particle_s>,
+              _Other=std::_Tree_node<std::pair<const int,Particle_s>,void *>,
+              _Objty=std::pair<const int,Particle_s>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(995): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<double,Particle_s>>(std::allocator<_Other> &,_Objty *,std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,Particle_s>,void *>>,
+              _Ty=std::pair<const int,Particle_s>,
+              _Other=std::_Tree_node<std::pair<const int,Particle_s>,void *>,
+              _Objty=std::pair<const int,Particle_s>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(889): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<double,Particle_s>>(_Ty *,std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const int,Particle_s>,void *>,
+              _Ty=std::pair<const int,Particle_s>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(887): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<double,Particle_s>>(_Ty *,std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const int,Particle_s>,void *>,
+              _Ty=std::pair<const int,Particle_s>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<double,Particle_s>>(std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s,
+              _Traits=std::_Tmap_traits<int,Particle_s,std::less<int>,std::allocator<std::pair<const int,Particle_s>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<double,Particle_s>>(std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s,
+              _Traits=std::_Tmap_traits<int,Particle_s,std::less<int>,std::allocator<std::pair<const int,Particle_s>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<double,Particle_s>>(std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,Particle_s>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<double,Particle_s>>(std::pair<double,Particle_s> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,Particle_s>>
+          ]
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\particle.cpp(36): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<double,Particle_s>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s,
+              _Valty=std::pair<double,Particle_s>
+          ]
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\particle.cpp(36): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<double,Particle_s>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Particle_s,
+              _Valty=std::pair<double,Particle_s>
+          ]
+  main.cpp
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.h(6): error C2011: 'Time': 'class' type redefinition
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.h(6): note: see declaration of 'Time'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\main.cpp(20): error C2027: use of undefined type 'Time'
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.h(6): note: see declaration of 'Time'
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.h(6): note: see declaration of 'Time'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\main.cpp(100): error C2027: use of undefined type 'Time'
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.h(6): note: see declaration of 'Time'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\main.cpp(100): error C2227: left of '->ct' must point to class/struct/union/generic type
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\main.cpp(104): error C2027: use of undefined type 'Time'
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.h(6): note: see declaration of 'Time'
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\main.cpp(104): error C2227: left of '->pt' must point to class/struct/union/generic type
+c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\main.cpp(118): warning C4150: deletion of pointer to incomplete type 'Time'; no destructor called
+  c:\users\kys\desktop\객체\new2 n-body simulation\n_body_simul\time.h(6): note: see declaration of 'Time'
+  Generating Code...
